@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Requirements page</title>
+	<link rel="stylesheet" href="styles\reqStyle.css">
+</head>
+<body>
+
+<h1>CMP204 Requirements Page - Unit 1 Assessment</h1>
+
+<p>If you have not met a requirement, do not delete it from the table.</p>
+
+<table>
+  <tr>
+    <th class="reqCol">Requirement</th>
+    <th class="metCol">How did you meet this requirement?</th>
+    <th class="fileCol">File name(s), line no.</th>
+  </tr>
+
+  <tr>
+    <td>HTML, CSS, JavaScript has been contained within separate files</td>
+    <td>I make use of a clear file structure, wherein media (images), pages (HTML, with the exception of req.html and index.html which are both in root for clarity and accessability purposes), scripts (JS and jQuery), and styles (CSS) are contained within separate files named as such. files are linked to one another in the HTML &#12296;head&#12297; element</td>
+    <td>Demonstrated throughout</td>
+  </tr>
+
+  <tr>
+    <td>A clear use of HTML5</td>
+    <td>the web application is written in HTML5 - Specific applications of HTML version 5 include the	&#12296;header&#12297; and &#12296;footer&#12297; tags</td>
+    <td>Demonstrated throughout</td>
+  </tr>
+
+  <tr>
+    <td>Use of the Bootstrap framework providing a responsive layout </td>
+    <td>Each page is divided into columns and rows (using the bootstrap framework's col and row div classes) which vary in number and physical size as required. Additionally I make use of Bootstrap's navbar class </td>
+    <td>Demonstrated throughout</td>
+  </tr>
+
+  <tr>
+    <td>Use of JavaScript to manipulate the DOM based on an event</td>
+    <td>Use button onclick to call a function that changes the theme of the website - I manipulate the DOM by first accessing document.documentElement, which is part of the DOM, before making any changes</td>
+    <td>Demonstrated in buttons linked at the bottom of each &#12296;footer&#12297; element on each page <br> links to themeChange.js</td>
+  </tr>
+
+  <tr>
+    <td>JavaScript loading of dynamically changing information</td>
+    <td>Implemented a timer, counting up from midnight of the date of Daft Punk's last album release, Random Access Memories, counts up once a second.</td>
+    <td>index.html - line 21<br>Linking to CountUp.js - lines 1-39</td>
+  </tr>
+
+  <tr>
+    <td>Use of jQuery in conjunction with the DOM</td>
+    <td>The site uses an iframe which is responsible for playing Daft Punk songs through Spotify, I implemented a button that calls a jQuery function that replaces the iframe with text that reads "There was a Spotify playlist with Daft Punk songs here, but it's gone now", this was achieved using the .replaceWith() function</td>
+    <td>pages/* <br>iframeReplace.js - lines 1-4</td>
+  </tr>
+
+  <tr>
+    <td>Use of a jQuery plugin to enhance your application</td>
+    <td>Made use of the Slick jQuery library to implement slideshow functionality in Index.html</td>
+    <td>index.html - lines 18-20, 44-49<br>Linking to slick.js - all, slickInit.js lines 1-8 </td>
+  </tr>
+
+  <tr>
+    <td>Appropriate consideration of relevant laws</td>
+    <td>Implemented a cookie (that currently has no function) in JS and added a cookie consent popup to index.html in order to be in line with the Cookie law, additionally, the banner itself contains a cookie that remembers that you've clicked the "got it" button and will not show again until cookies are cleared, if it does not show up simply open in Incognito mode or clear cookies <br> Additionally, the usage of alt text takes accessability into account, which falls in line with the Disability Discrimination Act</td>
+    <td>Index.html - line 119 <br> all img tags</td>
+  </tr>
+
+</table>
+		
+</body>
+</html>
+
+
+

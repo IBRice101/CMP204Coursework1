@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.reqCol{
+width:20%;
+}
+
+.metCol{
+width:55%;
+}
+
+.fileCol{
+width:25%;
+}
+
+th{
+background-color:lightgray;
+}
